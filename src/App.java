@@ -8,16 +8,21 @@ public class App {
 
         
         System.out.println("Nombre : " + p1.getName());
+
         System.out.println("Precio : " + p1.getPrice());
-        System.out.println("Stock : " + p1.getStock());
+        
         System.out.println("Stock : "  + p1.getStock());
+        System.out.println("Disponible : " + p1.isDisponible()); //uso del 
         System.out.println(p1.toString());
 
-        Product p2 = new Product("P002", "Mouse Gamer", 150000.0, 50);
+        Product p2 = new Product("P002", "Mouse Gamer", 150000.0, 50, true);
+        
         p2.setStock(45);
 
         System.out.println("\n=== Producto 2 ===");
+
         System.out.println("Nombre : " + p2.getName());
+        
         System.out.println("Stock  : " + p2.getStock());
         System.out.println(p2.toString());
 
