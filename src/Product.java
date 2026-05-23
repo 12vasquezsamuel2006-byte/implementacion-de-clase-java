@@ -16,12 +16,13 @@ public class Product {
     }
 
     // Constructor parametrizado
-    public Product(String id, String name, double price, int stock) {
-        this.id         = id;
-        this.name       = name;
-        this.price      = price;
-        this.stock      = stock;
-        this.disponible = true;
+    public Product(String id, String name, double price, int stock, boolean disponible) {
+    this.id         = id;
+    this.name       = name;
+    this.price      = price;
+    this.stock      = stock;
+    this.disponible = disponible;
+    
     }
 
     // Getters
