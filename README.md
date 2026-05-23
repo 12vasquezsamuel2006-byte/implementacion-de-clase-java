@@ -13,8 +13,8 @@ src/
 Lo más fácil es abrirlo en VS Code y darle Run al Main.java directamente.
 
 Si lo quieren correr desde la terminal:
-javac src/Main.java src/Product.java -d bin
-java -cp bin Main
+javac src/App.java src/Product.java -d bin
+java -cp bin App
 
 ## Lo que sale cuando lo ejecuto
 
